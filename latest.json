@@ -1,17 +1,14 @@
 {
-  "version": "3.2.1",
-  "date": "2026-11-03",
+  "version": "3.2.2",
+  "date": "2026-11-13",
   "notes": [
-    "Quality choices now match what each video offers",
-    "Portrait Shorts download in full 1080p on Android",
-    "Videos use H.264, so they play on every phone",
-    "ClipVault now tells you when an update is ready"
+    "Instagram videos now play in QuickTime, Finder previews, Photos and on iPhone (some were saved in a format only browsers play)"
   ],
   "mac": {
-    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.1/ClipVault-3.2.1-arm64.dmg"
+    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.2/ClipVault-3.2.2-arm64.dmg"
   },
   "android": {
-    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.1/ClipVault-3.2.1-android.apk",
-    "universalUrl": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.1/ClipVault-3.2.1-android-universal.apk"
+    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.2/ClipVault-3.2.2-android.apk",
+    "universalUrl": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.2/ClipVault-3.2.2-android-universal.apk"
   }
 }
