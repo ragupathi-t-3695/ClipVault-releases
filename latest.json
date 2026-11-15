@@ -1,14 +1,17 @@
 {
-  "version": "3.2.2",
-  "date": "2026-11-13",
+  "version": "3.3.0",
+  "date": "2026-11-15",
   "notes": [
-    "Instagram videos now play in QuickTime, Finder previews, Photos and on iPhone (some were saved in a format only browsers play)"
+    "New Convert tab on Mac: change a video's format, size and quality, or make it fit a target size",
+    "Convert images between JPG, PNG, WebP, HEIC, AVIF, PDF and more",
+    "Android: post clips to WhatsApp Status, split into 60-second parts when needed",
+    "Instagram videos now play in QuickTime, Photos and on iPhone"
   ],
   "mac": {
-    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.2/ClipVault-3.2.2-arm64.dmg"
+    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.3.0/ClipVault-3.3.0-arm64.dmg"
   },
   "android": {
-    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.2/ClipVault-3.2.2-android.apk",
-    "universalUrl": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.2.2/ClipVault-3.2.2-android-universal.apk"
+    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.3.0/ClipVault-3.3.0-android.apk",
+    "universalUrl": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.3.0/ClipVault-3.3.0-android-universal.apk"
   }
 }
