@@ -1,17 +1,14 @@
 {
-  "version": "3.4.0",
-  "date": "2026-11-18",
+  "version": "3.4.1",
+  "date": "2026-11-19",
   "notes": [
-    "Save Instagram carousels and X Articles to read offline",
-    "Posts with several photos or videos stay together as one Library item, with a slideshow",
-    "Your Library carries over when you update from an older version",
-    "The player fits phone screens better"
+    "Updates on Mac now download inside ClipVault and open ready to install"
   ],
   "mac": {
-    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.0/ClipVault-3.4.0-arm64.dmg"
+    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.1/ClipVault-3.4.1-arm64.dmg"
   },
   "android": {
-    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.0/ClipVault-3.4.0-android.apk",
-    "universalUrl": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.0/ClipVault-3.4.0-android-universal.apk"
+    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.1/ClipVault-3.4.1-android.apk",
+    "universalUrl": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.1/ClipVault-3.4.1-android-universal.apk"
   }
 }
