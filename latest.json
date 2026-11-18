@@ -1,17 +1,17 @@
 {
-  "version": "3.3.0",
-  "date": "2026-11-15",
+  "version": "3.4.0",
+  "date": "2026-11-18",
   "notes": [
-    "New Convert tab on Mac: change a video's format, size and quality, or make it fit a target size",
-    "Convert images between JPG, PNG, WebP, HEIC, AVIF, PDF and more",
-    "Android: post clips to WhatsApp Status, split into 60-second parts when needed",
-    "Instagram videos now play in QuickTime, Photos and on iPhone"
+    "Save Instagram carousels and X Articles to read offline",
+    "Posts with several photos or videos stay together as one Library item, with a slideshow",
+    "Your Library carries over when you update from an older version",
+    "The player fits phone screens better"
   ],
   "mac": {
-    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.3.0/ClipVault-3.3.0-arm64.dmg"
+    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.0/ClipVault-3.4.0-arm64.dmg"
   },
   "android": {
-    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.3.0/ClipVault-3.3.0-android.apk",
-    "universalUrl": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.3.0/ClipVault-3.3.0-android-universal.apk"
+    "url": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.0/ClipVault-3.4.0-android.apk",
+    "universalUrl": "https://github.com/ragupathi-t-3695/ClipVault-releases/releases/download/v3.4.0/ClipVault-3.4.0-android-universal.apk"
   }
 }
