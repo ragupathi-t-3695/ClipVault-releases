@@ -1,5 +1,7 @@
 # ClipVault releases
 
+**Download page: https://ragupathi-t-3695.github.io/ClipVault-releases/**
+
 Downloads for the ClipVault Mac and Android apps. Open the latest release and pick the file for your device:
 
 - **Mac (Apple Silicon):** the `.dmg`

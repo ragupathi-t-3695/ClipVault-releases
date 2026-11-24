@@ -1,0 +1,64 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ClipVault app icon: raised warm-white vault mark with a recessed copper arrow, on the copper
+       CTA gradient (.cta in src/index.css); full bleed so macOS applies its own mask -->
+  <defs>
+    <linearGradient id="cta" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E08A4E"/>
+      <stop offset="1" stop-color="#B9542F"/>
+    </linearGradient>
+    <!-- arrow: starts at the background's own colour where it leaves the circle, deepens toward the tip -->
+    <linearGradient id="arrow" x1="170" y1="30" x2="72" y2="124" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#CC6F3E"/>
+      <stop offset="0.5" stop-color="#B85A2C"/>
+      <stop offset="1" stop-color="#93391A"/>
+    </linearGradient>
+    <path id="mark" d="M100 0C118.398 0 135.636 4.97003 150.444 13.6387L100.026 64.0566C97.6833 66.3992 93.885 66.3992 91.542 64.0566L82.2422 54.7578C78.4624 50.978 72 53.6546 72 59V118.515C72 121.828 74.6863 124.515 78 124.515H137.515C142.86 124.515 145.537 118.052 141.758 114.272L135.943 108.458C133.6 106.115 133.6 102.316 135.943 99.9727L186.36 49.5557C195.029 64.3646 200 81.6014 200 100C200 155.228 155.228 200 100 200C44.7715 200 0 155.228 0 100C0 44.7715 44.7715 0 100 0Z"/>
+    <clipPath id="disc"><circle cx="100" cy="100" r="100"/></clipPath>
+    <!-- the white surface's edge casting a soft shadow down into the arrow -->
+    <filter id="recess" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.2" result="b"/>
+      <feOffset in="b" dx="-1.2" dy="2.6" result="o"/>
+      <feFlood flood-color="#5A200E" flood-opacity="0.65"/>
+      <feComposite in2="o" operator="in"/>
+    </filter>
+    <!-- white surface: bright top-left, warm white bottom-right -->
+    <linearGradient id="white" x1="20" y1="10" x2="180" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#FBF4EC"/>
+      <stop offset="1" stop-color="#EFDCC8"/>
+    </linearGradient>
+    <!-- raised disc: soft shadow onto the copper, plus a lit top edge and shaded bottom edge -->
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/>
+      <feOffset in="b" dy="5" result="o"/>
+      <feFlood flood-color="#6B2A14" flood-opacity="0.45"/>
+      <feComposite in2="o" operator="in"/>
+    </filter>
+    <filter id="edge" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="b"/>
+      <feOffset in="b" dy="1.6" result="o1"/>
+      <feComposite in="SourceAlpha" in2="o1" operator="out" result="e1"/>
+      <feFlood flood-color="#FFFFFF" flood-opacity="1"/>
+      <feComposite in2="e1" operator="in" result="hi"/>
+      <feOffset in="b" dy="-2" result="o2"/>
+      <feComposite in="SourceAlpha" in2="o2" operator="out" result="e2"/>
+      <feFlood flood-color="#C8A07E" flood-opacity="0.55"/>
+      <feComposite in2="e2" operator="in" result="lo"/>
+      <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="hi"/><feMergeNode in="lo"/></feMerge>
+    </filter>
+    <clipPath id="tile"><rect width="1024" height="1024" rx="230"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+
+  <rect width="1024" height="1024" fill="url(#cta)"/>
+
+  <g transform="translate(162 162) scale(3.5)">
+    <use href="#mark" fill="#000000" filter="url(#lift)"/>
+    <g clip-path="url(#disc)">
+      <rect width="200" height="200" fill="url(#arrow)"/>
+      <use href="#mark" fill="#000000" filter="url(#recess)"/>
+    </g>
+    <g filter="url(#edge)"><use href="#mark" fill="url(#white)"/></g>
+  </g>
+  </g>
+</svg>
